@@ -141,4 +141,72 @@
   .animation-delay-800 {
     animation-delay: 800ms;
   }
+
+  @keyframes animated-border {
+    0% {
+      stroke-dashoffset: 400;
+    }
+    100% {
+      stroke-dashoffset: -550;
+    }
+  }
+
+.group:hover .animated-border-path {
+  animation: animated-border 1.5s linear infinite ;
+  -webkit-animation: animated-border 1.5s linear infinite ;
+}
+
+  .animate-border:hover {
+    background-color: color-mix(in srgb, #26c4b8 15%, transparent);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
+  }
+
+.glow-border {
+  box-shadow: 0 0 20px 
+  color-mix(in srgb, var(--color-primary) 20%, transparent) , inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
+}
+
+@keyframes float {
+  0%, 
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+50% {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+}
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+  -webkit-animation: float 4s ease-in-out infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+100% {
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+  -webkit-animation: marquee 30s linear infinite;
+}
 }
