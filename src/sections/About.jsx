@@ -33,12 +33,17 @@ const About = () => {
           {/* left Column */}
           <div className="space-y-8 ">
             <div className="animation-fade-in">
-              <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
+              <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
+                About Me
+              </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animation-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future, <span className="font-serif italic font-normal text-white ">one component at a time.</span>
+              Building the future,{" "}
+              <span className="font-serif italic font-normal text-white ">
+                one component at a time.
+              </span>
             </h2>
-                  <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
+            <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
                 I'm a passionate software engineer with over 5 years of
                 experience crafting digital products that make a difference. My
@@ -60,11 +65,10 @@ const About = () => {
             </div>
             <div className="glass rounded-2xl p-6 glow-border animation-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                 "My mission is to create digital experiences that are not just
+                "My mission is to create digital experiences that are not just
                 functional, but truly delightful — products that users love to
                 use and developers love to maintain."
               </p>
-              
             </div>
           </div>
         </div>
