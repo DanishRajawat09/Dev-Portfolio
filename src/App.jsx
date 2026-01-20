@@ -3,6 +3,7 @@ import React from "react";
 import Hero from "./sections/Hero.jsx";
 import Navbar from "./layout/Navbar.jsx";
 import About from "./sections/About.jsx";
+import Projects from "./sections/Projects.jsx";
 const App = () => {
   return (
     <div className="min-h-screen overflow-x-hidden">
@@ -10,8 +11,8 @@ const App = () => {
       <main>
         <Hero />
         <About />
-        {/* <Projects/>
-        <Experience/>
+        <Projects />
+        {/* <Experience/>
         <Testimonials/>
         <Contact/> */}
       </main>
