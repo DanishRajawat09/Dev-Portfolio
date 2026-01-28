@@ -5,6 +5,7 @@ import Navbar from "./layout/Navbar.jsx";
 import About from "./sections/About.jsx";
 import Projects from "./sections/Projects.jsx";
 import Experience from "./sections/Experience.jsx";
+import Testimonials from "./sections/Testimonials.jsx";
 const App = () => {
   return (
     <div className="min-h-screen overflow-x-hidden">
@@ -14,8 +15,8 @@ const App = () => {
         <About />
         <Projects />
         <Experience/>
-        {/* <Testimonials/>
-        <Contact/> */}
+        <Testimonials/>
+        {/* <Contact/> */}
       </main>
     </div>
   );
