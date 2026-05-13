@@ -98,10 +98,9 @@ const Testimonials = () => {
                 <ChevronLeft />
               </button>
               <div className="flex gap-2">
-                {testimonials.map(_, (index) => (
+                {testimonials.map((_, index) => (
                   <button
-                  onClick={() => setActiveIdx(index)
-                  }
+                    onClick={() => setActiveIdx(index)}
                     className={`w-2 h-2  rounded-full transition-all duration-300 ${index === activeIdx ? "w-8 bg-primary " : "bg-muted-foreground/30 hover:bg-muted-foreground/50"}`}
                   />
                 ))}
