@@ -25,7 +25,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Sikar, Rajasthan, India",
     href: "#",
   },
 ];
@@ -91,14 +91,13 @@ const Contact = () => {
             Get In Touch
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Let's build{" "}
+            Let’s discuss{" "}
             <span className="font-serif italic font-normal text-white">
-              something great.
+            your project
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+       Whether you need a business website, landing page, SEO optimization, or Google Ads support, feel free to reach out and discuss your project.
           </p>
         </div>
 
@@ -225,12 +224,10 @@ const Contact = () => {
               <div className="glass rounded-3xl p-8 border border-primary/30">
               <div className="flex items-center gap-3 mb-4">
                 <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                <span className="font-medium">Currently Available</span>
+                <span className="font-medium">Available for New Projects</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a freelance consultant,
-                let's talk!
+              Currently available for freelance projects related to websites, landing pages, SEO optimization, and online business presence.
               </p>
             </div>
         </div>

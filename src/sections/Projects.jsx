@@ -4,7 +4,7 @@ import AnimatedBorderButton from "../components/AnimatedBorderButton";
 
 const projects = [
   {
-    title: "D-Blog",
+    title: "D-Blog Platform",
     description:
       "D-Blog | MERN Stack, React, Node.js, Express, MongoDB, Tailwind CSS, JWTBuilt a responsive blog web app with React, Tailwind CSS, and React Router, featuring userauthentication, blog creation, and comment functionality. Integrated Quill.js for rich text editing andMoment.js for date formatting. Developed secure RESTful APIs with Node.js and E",
     image: "/projects/project-2.png",
@@ -43,7 +43,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-32 relative overflow-hidden">
+    <section id="work" className="py-32 relative overflow-hidden">
       {/* bg Glows */}
       <div className="absolute top-1/4 right-0 w-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
@@ -54,15 +54,15 @@ const Projects = () => {
             Featured Work
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animation-f ade-in animation-delay-100 text-secondary-foreground">
-            Projects that
+          
             <span className="font-serif italic font-normal text-white">
               {" "}
-              make an impact
+           Selected Work & 
             </span>
+            {" "}  Projects
           </h2>
           <p className="text-muted-foreground animation-fade-in animation-delay-200">
-            A selection of my recent work, from complex web application to
-            innovative tools that solve real-world problems
+         A collection of websites and projects focused on design, performance, user experience, and business growth.
           </p>
         </div>
         {/* Projects Grid */}

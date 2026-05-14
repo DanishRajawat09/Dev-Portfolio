@@ -3,26 +3,26 @@ import React from "react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean code",
+    title: "Modern Websites",
     description:
-      "Writing maintainable, scalable code that stands the test of time",
+      "Modern responsive websites built for performance, usability, and strong online presence.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "SEO Optimization",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences",
+      "Improving website structure and search visibility to help businesses reach more people online."
   },
   {
     icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    title: "Google Business Profile",
+    description: "Optimizing business profiles to improve trust, reach, and customer engagement.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Google Ads",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Creating targeted ad campaigns focused on attracting relevant traffic, calls, and leads..",
   },
 ];
 const About = () => {
@@ -34,42 +34,33 @@ const About = () => {
           <div className="space-y-8 ">
             <div className="animation-fade-in">
               <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
-                About Me
+                About
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animation-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,{" "}
+             Creating websites and marketing {" "}
               <span className="font-serif italic font-normal text-white ">
-                one component at a time.
+                strategies that help businesses grow.
               </span>
             </h2>
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+               I’m a MERN stack developer and a google marketer focused on helping businesses build a stronger online presence through modern websites and digital marketing.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+      Along with website development, I also work on SEO Optimization, Google Business Profile optimization, and Google Ads to help businesses improve visibility and reach more customers online.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+               My focus is on creating clean, fast, and user-friendly websites that not only look professional but also support long-term business growth.
               </p>
             </div>
-            <div className="glass rounded-2xl p-6 glow-border animation-fade-in animation-delay-300">
+            {/* <div className="glass rounded-2xl p-6 glow-border animation-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
                 "My mission is to create digital experiences that are not just
                 functional, but truly delightful — products that users love to
                 use and developers love to maintain."
               </p>
-            </div>
+            </div> */}
           </div>
           {/* Right column */}
           <div className="grid sm:grid-cols-2 gap-6 ">

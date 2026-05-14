@@ -1,38 +1,42 @@
 import React from "react";
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+  // period: "",
+    // role: "Senior Frontend Engineer",
+    // company: "Tech Innovators Inc.",
+    title : "Discovery & Planning",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
+    "Understanding your business goals, audience, and project requirements before starting the design and development process.",
     technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
-    current: true,
+    current: false,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    // period: "2020 — 2022",
+    // role: "Frontend Engineer",
+    // company: "Digital Solutions Co.",
+    title : "Design & Development",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
+      "Building responsive, user-friendly websites focused on performance, usability, and professional presentation.",
     technologies: ["React", "Redux", "Jest", "Cypress"],
     current: false,
   },
   {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
+    // period: "2019 — 2020",
+    // role: "Junior Developer",
+    // company: "StartUp Labs",
+    title : "SEO & Optimization",
     description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
+      "Improving website structure, speed, and search visibility to help businesses strengthen their online presence.",
     technologies: ["React", "Node.js", "MongoDB", "AWS"],
     current: false,
   },
   {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
+    // period: "2018 — 2019",
+    // role: "Freelance Developer",
+    // company: "Self-Employed",
+    title : "Launch & Support",
     description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
+      "Launching the project with ongoing improvements, updates, and support when needed.",
     technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
     current: false,
   },
@@ -40,23 +44,23 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-32 relative overflow-hidden">
+    <section id="Process" className="py-32 relative overflow-hidden">
       <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 " />
       <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
         <div className="max-w-3xl mb-16">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animation-fade-in ">
-            Career Jouney
+          MY PROCESS
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animation-fade-in animation-delay-100 text-secondary-foreground">
-            Experience that{" "}
+            A simple process 
+{" "}
             <span className="font-serif italic font-normal text-white">
-              speaks volumes.
+          focused on business growth.
             </span>
           </h2>
           <p className="text-muted-foreground animation-fade-in animation-delay-200">
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale
+        From planning and design to development and optimization, every step is focused on creating a better online presence for your business.
           </p>
         </div>
         {/* Time Line */}
@@ -79,20 +83,20 @@ const Experience = () => {
 
                 {/* Content */}
                 <div
-                  className={`pl-8 md:pl-0 ${i % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 pl-16"}`}
+                  className={`pl-8 md:pl-0 ${i % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}
                 >
                   <div
                     className={`glass p-6 rounded-2xl border border-primary/30 hover:border-primary/50 transition-all duration-500 `}
                   >
-                    <span className="text-sm text-primary font-medium">
+                    {/* <span className="text-sm text-primary font-medium">
                       {exp.period}
-                    </span>
-                    <h3 className="text-xl font-semibold mt-2 ">{exp.role}</h3>
-                    <p className="text-muted-foreground ">{exp.company}</p>
+                    </span> */}
+                    <h3 className="text-xl font-semibold mt-2 ">{exp.title}</h3>
+                    {/* <p className="text-muted-foreground ">{exp.company}</p> */}
                     <p className="text-sm text-muted-foreground mt-4">
                       {exp.description}
                     </p>
-                    <div
+                    {/* <div
                       className={`flex flex-wrap gap-2 mt-4 ${i % 2 === 0 ? "md:justify-end" : ""}`}
                     >
                       {exp.technologies.map((tech, techIdx) => (
@@ -101,7 +105,7 @@ const Experience = () => {
                           className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground"
                         ></span>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

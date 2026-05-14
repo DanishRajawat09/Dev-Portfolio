@@ -11,13 +11,18 @@ import {
 import AnimatedBorderButton from "../components/AnimatedBorderButton.jsx";
 
 const skills = [
-  "React",
-  "Node.js",
-  "Express.js",
-  "MongoDB",
-  "Next.js",
-  "TypeScript",
-  "Tailwind CSS",
+"Responsive Websites",
+"Local SEO",
+"Google Business Profile",
+"Google Ads",
+"Landing Pages",
+"Website Optimization",
+"Mobile-Friendly Design",
+"Local Search Visibility",
+"Fast Loading Websites",
+"Business Websites",
+"Lead Generation",
+"SEO-Friendly Structure"
 ];
 
 const Hero = () => {
@@ -71,36 +76,39 @@ const Hero = () => {
             <div className="animation-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />{" "}
-                Software Engineer • React Specialist
+                Websites • Google Ranking • Google Ads
               </span>
             </div>
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animation-fade-in animation-delay-100">
-                Creafting
-                <span className="text-primary glow-text">digital</span>
+              <h1 className="text-5xl md:text-6xl lg:text-5xl font-bold leading-tight animation-fade-in animation-delay-100">
+               Helping 
+{/* grow online */}
+                <span className="text-primary glow-text"> businesses</span>
                 <br />
-                experience with
+                grow online
                 <br />
-                <span className="font-serif italic font-normal text-white">
+                {/* <span className="font-serif italic font-normal text-white">
                   precision
-                </span>
+                </span> */}
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animation-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+  I help businesses grow with modern websites, local SEO, Google Business Profile optimization, and Google Ads focused on getting more calls, messages, and customers.
               </p>
             </div>
             {/* CTA's  */}
             <div className="flex flex-wrap gap-4 animation-fade-in animation-delay-300">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
+           <a href="#contact">
+               <Button size="lg">
+                Contact me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton>
+           </a>
+         <a href="#work">
+               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
-                Download CV
+                View My Work
               </AnimatedBorderButton>
+         </a>
             </div>
             {/* Social Links  */}
             <div className="flex items-center gap-4 animation-fade-in animation-delay-400">
@@ -139,16 +147,16 @@ const Hero = () => {
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                     <span className="text-sm font-medium">
-                      Available for work
+                  Available for New Projects
                     </span>
                   </div>
                 </div>
                 {/* States Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500 ">
-                  <div className="text-2xl font-bold text-primary">5+</div>
-                  <div className="text-xs text-muted-foreground">
+                  <div className="text-xs font-bold text-primary">Danish Rajawat</div>
+                  {/* <div className="text-xs text-muted-foreground">
                     Years Exp.
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -158,7 +166,7 @@ const Hero = () => {
         {/* Skills Section */}
         <div className="mt-20 animation-fade-in animation-delay-600">
           <p className="text-sm text-muted-foreground mb-6 text-center">
-            Technologies I work with
+         What I Help Businesses With
           </p>
           <div className="relative overflow-hidden">
             <div className="flex animate-marquee  ">
